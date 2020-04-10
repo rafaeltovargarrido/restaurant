@@ -5,6 +5,8 @@
     --linkshover: #9e1500;
     /*companyname colors */
     --company:  #9e5000;/* #B8B7B7; gris chulito*/
+    /*backgorund*/
+    --background: #FFFDF0;
   }
 
 /* nav links
@@ -32,4 +34,10 @@
     font-size: 20 px;
     font-weight: 20px;
 
+}
+
+#background-img {
+ 
+  background-color: var(--background);
+  
 }
