@@ -1,0 +1,35 @@
+/*        Estilo de Pagina    */
+:root {
+    /* LINKS COLOR*/
+    --links: #9e5000; /*  */
+    --linkshover: #9e1500;
+    /*companyname colors */
+    --company:  #9e5000;/* #B8B7B7; gris chulito*/
+  }
+
+/* nav links
+--------------------------------------------------------*/
+
+.navBarLink {
+        color : var(--links) ; 
+        font-weight: 500;
+}
+
+.navBarLink:hover {
+    color : var(--linkshover);
+    border-bottom: 5px solid;
+    font-weight: 600;
+}
+
+
+/* company name
+--------------------------------------------------------*/
+
+
+.companyname {
+
+    color: var(--company) ;
+    font-size: 20 px;
+    font-weight: 20px;
+
+}
