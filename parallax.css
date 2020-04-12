@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.mb_parallax_container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#mb_parallax_one {
+  background-image: url(http://www.marcbarbeau.com/wp-content/uploads/2015/05/web-front-hill-long.png);
+}
+
+#mb_parallax_two {
+  background-image: url(p1.jpg);
+}
+
+#mb_parallax_three {
+  background-image: url(http://www.marcbarbeau.com/wp-content/uploads/2015/05/36magnificent-mountains.jpg);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+  background-color: rgba(207,216,220,0.5);
+}
+section.module.content:last-child {
+  margin-bottom: 60px;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
