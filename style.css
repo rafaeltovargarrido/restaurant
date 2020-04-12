@@ -1,12 +1,12 @@
 /*        Estilo de Pagina    */
 :root {
     /* LINKS COLOR*/
-    --links: #9e5000; /*  */
-    --linkshover: #9e1500;
+    --links: #F97F51; /*  */
+    --linkshover: #FEA47F;
     /*companyname colors */
-    --company:  #9e5000;/* #B8B7B7; gris chulito*/
+    --company:  #F97F51;/* #B8B7B7; gris chulito*/
     /*backgorund*/
-    --background: #FFFDF0;
+    --background: #FFFDF0;/*marfil original*/
   }
 
 /* nav links

@@ -8,6 +8,7 @@
 
     <title>Indian Food</title>
     <!-- style core CSS -->
+    <link href="style.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,43 +16,42 @@
 
     <!-- Custom styles for this template -->
     <link href="parallax.css" rel="stylesheet">
+    <!-- iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
+          <span class="w-100 d-lg-none d-block">
+            <!-- hidden spacer to center brand on mobile --></span>
             <a href="#" class="navbar-brand">
-                <!-- Logo Image -->
-                <img src="l.png" width="45" alt="" class="d-inline-block align-middle mr-2">
-                <!-- Logo Text -->
-                <span class="text-uppercase font-weight-bold">Company</span>
+              <!-- Logo Image -->
+              <img src="l.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+              <!-- Logo Text -->
+              <span class="font-weight-bold companyname">Restaurant</span>
             </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+          <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About US <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Link</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><div class="navBarLink"> Home </div><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><div class="navBarLink">Menu</div></a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link"><div class="navBarLink">About Us</div></a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
     <div class="mb_parallax_container" id="mb_parallax_one">
         <div class="container">
@@ -84,6 +84,37 @@
 
     <div class="mb_parallax_container" id="mb_parallax_two">
     </div>
+
+     <!-- FOOTER -->
+     <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom bg-dark">
+          <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block">
+              <!-- hidden spacer to center brand on mobile --></span>
+              <a href="#" class="navbar-brand">
+                <!-- iconos -->
+                <div  height="10">
+                  <span class="navBarLink">
+                    <i class="fab fa-twitter"></i>                
+                  </span>
+                  <span class="navBarLink">
+                    <i class="fab fa-facebook"></i>
+                  </span>
+                  <span class="navBarLink">
+                    <i class="fab fa-instagram"></i>
+                  </span>
+                  <span class="navBarLink">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                </div>
+                <!-- Logo Text -->
+                </a>      
+          </div>    
+        </nav>
+      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

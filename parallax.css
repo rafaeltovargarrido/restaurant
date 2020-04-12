@@ -19,11 +19,12 @@ h2 {
 
 
 #mb_parallax_one {
-  background-image: url(http://www.marcbarbeau.com/wp-content/uploads/2015/05/web-front-hill-long.png);
+  background-image: url(p1.jpg);
+  filter:brightness(60%)
 }
 
 #mb_parallax_two {
-  background-image: url(p1.jpg);
+  background-image: url(p2.jpg);
 }
 
 #mb_parallax_three {
@@ -61,7 +62,7 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 40px 0;
-  background-color: rgba(207,216,220,0.5);
+  background-color: #FFFDF0;
 }
 section.module.content:last-child {
   margin-bottom: 60px;
@@ -71,11 +72,11 @@ section.module.parallax {
   background-position: 0 0;
 }
 section.module.parallax h1 {
-  color: #1e1e1e;
-  font-size: 48px;
-  line-height: 1;
+  color: #8a8a8a;
+  font-size: 80px;
+  line-height: 3;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px white;
+  text-shadow: 10px 10px 50px #FFFDF0;
 }
