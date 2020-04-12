@@ -41,3 +41,22 @@
   background-color: var(--background);
   
 }
+
+/* Parallax
+--------------------------------------------------------*/
+
+.tituloParallax {
+  color: #333333;
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;  
+  text-shadow: 0px 0px 10px #FFFDF0;
+
+}
+
+.paratext {  
+  line-height: 9;
+  font-weight: 10000;
+  text-align: center;
+}
