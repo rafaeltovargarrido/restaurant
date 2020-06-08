@@ -12,5 +12,5 @@ cp -rf artefacts/* artefact/
 
 ls artefact/
 
-sed -i 's/BLACKFIRE_SERVER_ID/'"$NAME'"/g;s/BLACKFIRE_SERVER_TOKEN/'"$NAME'"/g' artefact/r.confg
+sed -i "s|BLACKFIRE_SERVER_ID|$NAME|g;s|BLACKFIRE_SERVER_TOKEN|$NAME|g" artefact/r.confg 
 cat artefact/r.confg
