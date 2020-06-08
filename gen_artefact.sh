@@ -11,3 +11,5 @@ cp -rf *source*/.env artefact/
 cp -rf artefacts/* artefact/
 
 ls artefact/
+
+echo $NAME
