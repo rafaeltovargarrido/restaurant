@@ -1,0 +1,2 @@
+php_admin_value[blackfire.server_id] = BLACKFIRE_SERVER_ID
+php_admin_value[blackfire.server_token] = BLACKFIRE_SERVER_TOKEN
